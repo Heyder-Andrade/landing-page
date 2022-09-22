@@ -1,5 +1,6 @@
 body {
     background: url(../image/bg-desktop.svg);
+    background-size: cover;
     background-color: var(--primary-violet);
     font-family: 'Outfit', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -86,12 +87,12 @@ body {
 
 }
 
- .icones .fa-facebook:hover,
- .icones .fa-twitter:hover,
- .icones .fa-instagram:hover{
+.icones .fa-facebook:hover,
+.icones .fa-twitter:hover,
+.icones .fa-instagram:hover {
 
-color: var(--Soft-Magenta);
-border: 1px solid var(--Soft-Magenta);
-transition: color .3s;
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+    transition: color .3s;
 
 }
