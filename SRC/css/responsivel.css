@@ -1,0 +1,35 @@
+@media (max-width: 1200px) { 
+    .roda-pe{
+        max-width: 900px;
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) { 
+    .container{
+        display: block;
+    }
+    
+    .roda-pe{
+        max-width: 900px;
+        display: block;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 800px){ 
+    .container{
+        max-width: 300px;
+        display: block;
+        margin: 0;
+    }
+    .banner{
+        max-width: 300px;
+    }
+    
+    .roda-pe{
+        max-width: 900px;
+        display: block;
+        margin-top: 50px;
+    }
+}

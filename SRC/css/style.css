@@ -1,7 +1,8 @@
 body {
     background: url(../image/bg-desktop.svg);
     background-color: var(--primary-violet);
-
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cabecalho {
@@ -69,75 +70,28 @@ body {
     max-width: 1240px;
     display: flex;
     justify-content: flex-end;
-    
-}
-
-.roda-pe .face {
-    height: 50px;
-    margin:5px 20px 0 0;
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.roda-pe .facebook :hover {
-    content: '';
-    background-color: violet;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    transition: 0.3s ease-in-out;
-
-    }
-
-
-
-
-.roda-pe .tw {
-    height: 50px;
-    margin:5px 10px 0 0;
-}
-.roda-pe .twitter :hover {
-    content: '';
-    background-color: violet;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: flex;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    transition: 0.3s ease-in-out;
-
-    }
-    
-
-.roda-pe .insta {
-    height: 50px;
-    margin:5px 0 0 10px;
-    border-color: azure;
-    border-radius: 50%;
-    position:  absolute;
-    
-
 }
 
 
-.roda-pe .instagran :hover {
-    content: '';
-    background-color: violet;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin: 5px 0 0 10px;
-    display: flex;
-    justify-content: flex-end;
-    transition: 0.3s ease-in-out; 
-  
-    }
 
- 
-    
+.roda-pe .icones .fa-facebook,
+.roda-pe .icones .fa-twitter,
+.roda-pe .icones .fa-instagram {
+    font-size: 30px;
+    color: #ffff;
+    padding: 10px;
+    margin: -60px 10px;
+    border: 1px solid #ffff;
+    border-radius: 25px;
+
+}
+
+ .icones .fa-facebook:hover,
+ .icones .fa-twitter:hover,
+ .icones .fa-instagram:hover{
+
+color: var(--Soft-Magenta);
+border: 1px solid var(--Soft-Magenta);
+transition: color .3s;
+
+}
